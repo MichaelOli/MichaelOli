@@ -47,4 +47,4 @@
 <a href="https://discord.com/michaelmamute4557" target="_blank"><img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo" /></a>
 <a href="https://www.linkedin.com/in/mor-michael/" target="_blank"><img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo" /></a>
 
-<img src="https://github-readme-stats.vercel.app/api?username=seuusername&show_icons=true&theme=radical" alt="Estatísticas do GitHub" />
+<img src="https://github-readme-stats.vercel.app/api?username=MichaelOli&show_icons=true&theme=radical" alt="Estatísticas do GitHub" />
