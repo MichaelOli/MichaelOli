@@ -1,21 +1,26 @@
-name: Gerar Jogo da Cobrinha
+name: Generate Snake
 on:
   schedule:
-    - cron: "0 0 * * *" # Roda todo dia
+    - cron: "0 */6 * * *" # Roda a cada 6 horas
+  workflow_dispatch: # Permite rodar manualmente
   push:
-    branches: [main]
+    branches:
+      - main
 jobs:
-  generate-snake:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: Platane/snk@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Generate Snake Animation
+        uses: Platane/snk@v3
         with:
-          github_user_name: MichaelOli
+          github_user_name: ${{ github.repository_owner }} # Usa MichaelOli automaticamente
           outputs: |
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
