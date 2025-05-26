@@ -1,4 +1,4 @@
-## Michael Oliveira Ribeiro| Engenheiro de Dados Junior & Desenvolvedor Python
+## Michael Oliveira Ribeiro | Engenheiro de Dados Junior & Desenvolvedor Python
 👋 Olá! Sou Michael, apaixonado por criar pipelines de dados escaláveis e soluções inovadoras com Python.
 
 - **Habilidades**: Python, Análise de Dados, ETL/ELT, APIs RESTful
